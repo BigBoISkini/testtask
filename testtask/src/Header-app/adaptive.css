@@ -1,0 +1,502 @@
+@media only screen and (max-width: 1500px) {
+  .header {
+    background-size: 1500px 726px;
+    height: 726px; }
+  .menu__circle {
+    top: 20px; }
+  .header__tablets {
+    top: 120px;
+    width: 174px;
+    height: 465.29px;
+    left: 1106px;
+    background-size: 174px 465.29px; }
+  .header__ginger {
+    top: 332.72px;
+    left: 950px;
+    width: 396px;
+    height: 288.83px;
+    background-size: 396px 288.83px; }
+  .header__lemon {
+    width: 453px;
+    height: 372px;
+    left: 784px;
+    top: 441.06px;
+    background-size: 453px 372px; }
+  .header__text {
+    font-size: 8.5em;
+    top: 126px; }
+  .header__textmini {
+    font-size: 1.5em;
+    top: 450px; }
+  .header__description {
+    top: 564px; }
+    .header__description .description__glav {
+      font-size: 25px; }
+    .header__description .description__mini {
+      font-size: 17px; }
+  .content .footer__text {
+    width: 800px;
+    height: 80px;
+    font-size: 42px; }
+  .footer__price {
+    margin-top: 80px; }
+    .footer__price .price1 {
+      font-size: 35px; }
+    .footer__price .price2 {
+      font-size: 45px;
+      margin-left: 40px; }
+  .footer__down {
+    margin-top: 20px;
+    height: 400px; }
+  .menu__box__basket {
+    margin-left: 50px; }
+  .menu__circle {
+    display: none; } }
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    background-size: 1200px 600px;
+    height: 600px; }
+  .menu__box__icon {
+    width: 100px;
+    height: 28.5px;
+    background-image: url("../icon/logo.png");
+    background-size: 100px 28.5px; }
+  .header__tablets {
+    top: 120px;
+    width: 154px;
+    height: 405px;
+    left: 826px;
+    background-size: 154px 405px; }
+  .header__ginger {
+    top: 242.72px;
+    left: 720px;
+    width: 336px;
+    height: 288.83px;
+    background-size: 336px 288.83px; }
+  .header__lemon {
+    width: 373px;
+    height: 322px;
+    left: 574px;
+    top: 351.06px;
+    background-size: 373px 322px; }
+  .header__text {
+    left: 174px;
+    font-size: 6em;
+    top: 76px;
+    line-height: 100px; }
+  .header__textmini {
+    left: 180px;
+    font-size: 1.1em;
+    top: 360px;
+    width: 472px; }
+  .header__description {
+    left: 180px;
+    top: 444px; }
+    .header__description .description__mini {
+      font-size: 16px; }
+    .header__description .description__glav {
+      font-size: 24px; }
+  .menu__box {
+    font-size: 15px; }
+  .menu__box__basket {
+    margin-left: 40px; }
+  .content {
+    margin-bottom: 80px; }
+    .content .footer__text {
+      width: 800px;
+      height: 80px;
+      font-size: 35px; }
+  .footer__price {
+    margin-top: 60px; }
+    .footer__price .price1 {
+      font-size: 30px; }
+    .footer__price .price2 {
+      font-size: 35px; }
+  .footer__down {
+    height: 400px; }
+  .column__text {
+    font-size: 18px; }
+  .big {
+    font-size: 30px; }
+  .column__img {
+    width: 163px;
+    height: 138px;
+    background-image: url("../img/ginger.png");
+    background-size: 163px 138px; }
+  .nootris {
+    background-image: url("../img/nootris.png");
+    background-size: 450px 130px;
+    width: 450px;
+    height: 130px; }
+  .vorus {
+    background-image: url("../img/vorus.png");
+    background-size: 162px 130px;
+    width: 162px;
+    height: 130px; }
+  .button {
+    width: 250px;
+    height: 60px; } }
+
+.menu__circle {
+  display: none; }
+
+@media only screen and (max-width: 992px) {
+  body {
+    width: auto;
+    height: auto; }
+  .header {
+    background-size: 992px 600px;
+    height: 600px; }
+  .menu__circle {
+    display: none; }
+  .menu__box__icon {
+    width: 80px;
+    height: 25px;
+    background-image: url("../icon/logo.png");
+    background-size: 80px 25px; }
+  .header__tablets {
+    top: 120px;
+    width: 134px;
+    height: 385px;
+    left: 636px;
+    background-size: 134px 385px; }
+  .header__ginger {
+    top: 242.72px;
+    left: 530px;
+    width: 316px;
+    height: 268px;
+    background-size: 316px 268px; }
+  .header__lemon {
+    width: 353px;
+    height: 302px;
+    left: 384px;
+    top: 341.06px;
+    background-size: 353px 302px; }
+  .header__text {
+    left: 104px;
+    font-size: 5em;
+    top: 76px;
+    line-height: 100px; }
+  .header__textmini {
+    left: 110px;
+    font-size: 1em;
+    top: 360px;
+    width: 372px; }
+  .header__description {
+    width: 250px;
+    left: 110px;
+    top: 444px; }
+    .header__description .description__mini {
+      font-size: 15px; }
+    .header__description .description__glav {
+      font-size: 22px; }
+  .menu__box {
+    font-size: 13px; }
+  .menu__box__basket {
+    width: 25px;
+    height: 20px;
+    background-size: 25px 20px;
+    margin-left: 40px; }
+  .menu__circle {
+    background-size: 5px 5px;
+    right: 50px; }
+  .content {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    .content .footer__text {
+      width: 800px;
+      height: 80px;
+      font-size: 28px;
+      line-height: 30px; }
+  .footer__price {
+    margin-bottom: 30px;
+    margin-top: 0px; }
+    .footer__price .price1 {
+      font-size: 22px; }
+    .footer__price .price2 {
+      font-size: 27px; }
+  .footer__down {
+    height: 300px; }
+  .column__text {
+    font-size: 16px; }
+  .big {
+    font-size: 25px; }
+  .column__img {
+    width: 133px;
+    height: 110px;
+    background-image: url("../img/ginger.png");
+    background-size: 133px 110px; }
+  .nootris {
+    background-image: url("../img/nootris.png");
+    background-size: 380px 100px;
+    width: 380px;
+    height: 100px; }
+  .vorus {
+    background-image: url("../img/vorus.png");
+    background-size: 132px 110px;
+    width: 132px;
+    height: 110px; }
+  .button {
+    margin-top: 0px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px; } }
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    height: 45px; }
+  .menu__column {
+    display: none; }
+    .menu__column:nth-child(1) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  .menuBox {
+    width: 24px;
+    height: 24px;
+    background-image: url("../icon/menu.png");
+    background-size: 24px 24px; }
+    .menuBox:hover {
+      cursor: pointer; }
+  .header {
+    background-size: 768px 500px;
+    height: 440px; }
+  .menu__box__icon {
+    width: 60px;
+    height: 20px;
+    background-image: url("../icon/logo.png");
+    background-size: 60px 20px; }
+  .header__tablets {
+    top: 90px;
+    width: 84px;
+    height: 255px;
+    left: 526px;
+    background-size: 84px 255px; }
+  .header__ginger {
+    top: 142.72px;
+    left: 440px;
+    width: 246px;
+    height: 208px;
+    background-size: 246px 208px; }
+  .header__lemon {
+    z-index: 999999999;
+    width: 253px;
+    height: 202px;
+    left: 344px;
+    top: 261.06px;
+    background-size: 253px 202px; }
+  .header__text {
+    width: 200px;
+    left: 124px;
+    font-size: 3.7em;
+    top: 0px;
+    line-height: 50px; }
+  .header__textmini {
+    width: 100px;
+    left: 124px;
+    font-size: 0.9em;
+    top: 210px;
+    line-height: 20px;
+    width: 372px; }
+  .header__description {
+    width: 250px;
+    left: 124px;
+    top: 314px; }
+    .header__description .description__mini {
+      font-size: 14px; }
+    .header__description .description__glav {
+      font-size: 20px; }
+  .menu__box {
+    font-size: 13px; }
+  .menu__box__basket {
+    width: 25px;
+    height: 20px;
+    background-size: 25px 20px;
+    margin-left: 40px; }
+  .menu__circle {
+    background-size: 5px 5px;
+    right: 50px;
+    display: none; }
+  .content {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+    .content .footer__text {
+      width: 800px;
+      height: 80px;
+      font-size: 21px;
+      line-height: 23px; }
+  .footer__price {
+    margin-bottom: 0px;
+    margin-top: -10px; }
+    .footer__price .price1 {
+      font-size: 20px; }
+    .footer__price .price2 {
+      font-size: 25px; }
+  .footer__down {
+    margin-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 600px; }
+  .footer__column {
+    margin-top: 40px; }
+  .column__img {
+    margin-bottom: -50px; }
+  .column__text {
+    font-size: 16px; }
+  .big {
+    font-size: 22px; }
+  .price {
+    font-size: 20px; }
+  .column__img {
+    width: 133px;
+    height: 110px;
+    background-image: url("../img/ginger.png");
+    background-size: 133px 110px; }
+  .nootris {
+    background-image: url("../img/nootris.png");
+    background-size: 380px 100px;
+    width: 380px;
+    height: 100px; }
+  .vorus {
+    background-image: url("../img/vorus.png");
+    background-size: 132px 110px;
+    width: 132px;
+    height: 110px; }
+  .button {
+    margin-top: 80px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px; } }
+
+@media only screen and (max-width: 480px) {
+  .menu {
+    height: 45px; }
+  .menu__column {
+    display: none; }
+    .menu__column:nth-child(1) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  .menuBox {
+    width: 24px;
+    height: 24px;
+    background-image: url("../icon/menu.png");
+    background-size: 24px 24px; }
+    .menuBox:hover {
+      cursor: pointer; }
+  .header {
+    background-size: 480px 300px;
+    height: 300px; }
+  .menu__box__icon {
+    width: 60px;
+    height: 20px;
+    background-image: url("../icon/logo.png");
+    background-size: 60px 20px; }
+  .header__tablets {
+    top: 70px;
+    width: 74px;
+    height: 205px;
+    left: 296px;
+    background-size: 74px 205px; }
+  .header__ginger {
+    top: 142.72px;
+    left: 260px;
+    width: 126px;
+    height: 108px;
+    background-size: 126px 108px; }
+  .header__lemon {
+    z-index: 999999999;
+    width: 153px;
+    height: 132px;
+    left: 234px;
+    top: 201.06px;
+    background-size: 153px 132px; }
+  .header__text {
+    width: 200px;
+    left: 20px;
+    font-size: 2em;
+    top: -50px;
+    line-height: 30px; }
+  .header__textmini {
+    width: 200px;
+    height: 50px;
+    left: 20px;
+    font-size: 0.7em;
+    top: 150px;
+    line-height: 20px; }
+  .header__description {
+    width: 250px;
+    left: 20px;
+    top: 214px; }
+    .header__description .description__mini {
+      font-size: 14px; }
+    .header__description .description__glav {
+      font-size: 16px;
+      margin-bottom: -8px; }
+  .menu__box {
+    font-size: 13px; }
+  .menu__box__basket {
+    width: 25px;
+    height: 20px;
+    background-size: 25px 20px;
+    margin-left: 40px; }
+  .menu__circle {
+    background-size: 5px 5px;
+    right: 50px;
+    display: none; }
+  .content {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .content .footer__text {
+      width: 800px;
+      height: 80px;
+      font-size: 18px;
+      line-height: 20px; }
+  .footer__price {
+    margin-bottom: -10px;
+    margin-top: -30px; }
+    .footer__price .price1 {
+      margin-right: -20px;
+      font-size: 16px; }
+    .footer__price .price2 {
+      font-size: 20px; }
+  .footer__down {
+    margin-top: -40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 600px; }
+  .footer__column {
+    margin-top: 40px; }
+  .column__img {
+    margin-bottom: -50px; }
+  .column__text {
+    font-size: 14px; }
+  .big {
+    font-size: 18px; }
+  .price {
+    font-size: 17px; }
+  .column__img {
+    width: 83px;
+    height: 80px;
+    background-image: url("../img/ginger.png");
+    background-size: 83px 80px; }
+  .nootris {
+    background-image: url("../img/nootris.png");
+    background-size: 180px 50px;
+    width: 180px;
+    height: 50px; }
+  .vorus {
+    background-image: url("../img/vorus.png");
+    background-size: 82px 70px;
+    width: 82px;
+    height: 70px; }
+  .button {
+    margin-top: 10px;
+    width: 80px;
+    height: 20px;
+    font-size: 8px; } }

@@ -1,7 +1,11 @@
 import './header-app.css';
+import './adaptive.css';
 import Button from 'react-bootstrap/Button';
+import { Component } from 'react';
 
-const Header = () => {
+class Header extends Component{
+
+    render(){
     return(
         <div>
             <div className='menu'>
@@ -24,6 +28,24 @@ const Header = () => {
                     <div  className='menu__box__basket'></div>
                     <div className='menu__circle'>1</div>
                 </div>
+
+                <div className='menuBox'></div>
+
+                
+            </div>
+        </div>
+
+        <div className='menuBurger'>
+            <div className='menuBurger__content'>
+            <div>Меню</div>
+                <div className='menuBurger__column'>
+                    <div className='menu__box'>FAQ</div>
+                    <div className='menu__box'>Оплата и доставка</div>
+                    <div className='menu__box'>Возврат</div>
+                    <div className='menu__box'>Исследования</div>
+                    <div className='menu__box'>Личный кабинет</div>
+                    <div className='menu__box'>8 8 (800) 600-09-90</div>
+                </div>
             </div>
         </div>
 
@@ -33,6 +55,7 @@ const Header = () => {
                 Всего пять секунд в день помогут укрепить иммунитет 
                 и повысить защитные силы организма
                 </div>
+
                 <div className='header__description'>
                     <div className='description__glav'>NOOTRIS ПОМОГАЕТ</div>
                     <div className='description__mini'>
@@ -40,16 +63,11 @@ const Header = () => {
                         и сезонных простуд
                         </div>
                 </div>
+
                 <div className='header__tablets'></div>
                 <div className='header__ginger'></div>
                 <div className='header__lemon'></div>
-                <div className='header1'></div>
-                <div className='header2'></div>
-                <div className='header3'></div>
-                <div className='header5'></div>
-                <div className='header6'></div>
-                <div className='header7'></div>
-                <div className='header8'></div>
+
             </div>
 
             <div className='footer'>
@@ -86,6 +104,7 @@ const Header = () => {
                             <span>вирусы</span>
                             </div>
                         </div>
+
                     </div>
 
                     <Button variant="warning" className='button'>Оформить заказ!</Button>
@@ -94,6 +113,7 @@ const Header = () => {
             </div>
         </div>
     )
+    }
 }
 
 export default Header;

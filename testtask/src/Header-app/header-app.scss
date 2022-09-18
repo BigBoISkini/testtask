@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Comfortaa&family=Inter:wght@300&family=Noto+Sans:wght@200&family=Open+Sans:wght@600&family=Oswald&family=Rubik&family=Rubik+Dirt&family=Rubik+Iso&family=Ubuntu&display=swap');
 
 // scss стили для меню
+body {
+    overflow-x: hidden;
+    }
+
 .menu{
     z-index: 99999999;
     position: absolute;
@@ -26,7 +30,7 @@
     align-items: center;
     display: flex;
     height: 40px;
-
+    position: relative;
 }
 
 
@@ -38,10 +42,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-}
-
-.menu__column:last-child{
-
 }
 
 .menu__box__icon{
@@ -70,8 +70,8 @@
     align-items: center;
     border-radius: 50%;
     font-size: 11px;
-    top: 45px;
-    right: 96px;
+    top: 26px;
+    right: -10px;
 }
 
 // scss стили header
@@ -80,91 +80,7 @@
     position: relative;
     height: 872px;
     width: 100%;
-    background: #FCDA28;
-    
-
-}
-
-.header1{
-    z-index: 66666;
-    background-size: 1650px 306px;
-    width: 1650.14px;
-    height: 306.27px;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    background-image: url('../background/bb1.png');
-    opacity: 0.5;
-}
-
-.header2{
-    z-index: 666666;
-    background-size: 1137px 365px;
-    width: 1137.24px;
-    height: 365.95px;
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-    background-image: url('../background/b2.png');
-    opacity: 0.5;
-}
-
-.header3{
-    z-index: 355555;
-    background-size: 1685px 393px;
-    position: absolute;
-    left: 10.75%;
-    right: 0%;
-    top: 0.54%;
-    bottom: 77.6%;
-    opacity: 0.5;
-    height: 393.5px;
-    width: 1685.1px;
-    background-image: url('../background/b3.png');
-}
-
-.header5{
-    background-size: 1840px 431px;
-    height: 431.6px;
-    width: 1840px;
-    position: absolute;
-    left: 0%;
-    bottom: 0%;
-    background-image: url('../background/b5.png');
-    opacity: 0.5;
-}
-
-.header6{
-    background-size: 1096px 736px;
-    height: 736.4px;
-    width: 696.8px;
-    position: absolute;
-    right: 0%;
-    top: 7.53%;
-    bottom: 51.56%;
-    opacity: 0.5;
-    background-image: url('../background/b6.png');
-}
-
-.header7{
-    z-index: 1;
-    background-size: 1186px 862px;
-    height: 862.2px;
-    width: 1186.1px;
-    position: absolute;
-    right: 0%;
-    top: 0.54%;
-    bottom: 51.56%;
-    background-image: url('../background/b7.png');
-}
-
-.header8{
-    height: 679.2px;
-    width: 634.3px;
-    position: absolute;
-    left: 0%;
-    top: 0.54%;
-    background-image: url('../background/b8.png');
+    background-image: url('../background/фон.png');
 }
 
 .header__text{
@@ -249,7 +165,7 @@
     font-style: normal;
     color: #000000;
     .description__glav{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
     }
     .description__mini{
@@ -259,6 +175,9 @@
         margin-top: 8px;
     }
 }
+
+
+
 
 .footer{
     display: flex;
@@ -323,7 +242,7 @@
     }
 }
 
-// колонки с + 
+// колонки с характеристиками
 
 .footer__down{
     display: flex;
@@ -408,4 +327,47 @@ span{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+}
+
+
+// меню бургер 
+
+
+
+
+.menuBurger{
+    display: none;
+    justify-content: center;
+    z-index: 9999999999999999999999;
+    width: 300px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    border: 1px solid black;
+    .menuBurger__content{
+        font-family: 'Rubik';
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        width: 80%;
+        height: 300px;
+        
+    }
+    .menu__box{
+        &:hover{
+            background-color: aliceblue;
+            color: black;
+        }
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Rubik';
+        font-size: 12px;
+        width: 200px;
+        height: 30px;
+    }
 }
